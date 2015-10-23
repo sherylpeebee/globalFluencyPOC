@@ -1,0 +1,109 @@
+@font-face { font-family: "Archer"; src: url('/fonts/archer.otf'); }
+
+.nav{
+  margin-left: -22px;
+}
+.bios{
+  margin-top: 20px;
+}
+.main {
+    padding-bottom: 5px;
+}
+ul.side-menu{
+  margin-top: 5px;
+}
+
+li.side-menu {
+    list-style: square url("/images/square.png");
+    color: #52B495;
+}
+
+li.social{
+    list-style: none;
+    display: inline;
+}
+
+div.social {
+    margin-left: 22px;
+    text-transform: uppercase;
+}
+
+span.menu-text {
+    margin-left: 9px;
+    text-transform: uppercase;
+    line-height: 2;
+    color: #52B495;
+}
+.menu-text a {
+    color: #52B495;
+}
+.menu-text a:hover {
+    color: #52B495;
+    text-decoration: none;
+    color: black;
+}
+
+h6 {
+    font-size: 12px;
+    margin-top: 25px;
+}
+h1#about {
+    color: #C34232;
+    font-family: "Archer";
+    border-bottom: 1px solid #52B495;
+}
+h1#founders {
+    font-family: "Archer";
+    border-bottom: 1px solid;
+}
+.founder-name{
+  font-weight: bolder;
+}
+.founder-images {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    max-height: 15vh;
+    max-width: 15vw;
+    float: left;
+    margin: 0 12px 0 -1px;
+}
+.h5, h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #52B495;
+}
+ul.social{
+  margin-left: -43px;
+}
+
+#linkedin {
+    height: 30px;
+    width: 30px;
+    margin-right: 2px
+}
+
+#fb {
+    height: 27px;
+    margin-right: 6px;
+}
+
+#twitter {
+    height: 20px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.details {
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+.details:not(:first-of-type){
+    padding-top: 15px;
+}
