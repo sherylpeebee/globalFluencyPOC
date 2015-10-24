@@ -1,5 +1,8 @@
 @font-face { font-family: "Archer"; src: url('/fonts/archer.otf'); }
 
+body {
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
 .nav{
   margin-left: -22px;
 }
