@@ -107,3 +107,7 @@ hr {
 .details:not(:first-of-type){
     padding-top: 15px;
 }
+
+.unique-bio:not(.open){
+  display: none;
+}
